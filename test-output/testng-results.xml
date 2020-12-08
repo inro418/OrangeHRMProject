@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="177050" started-at="2020-12-07T19:25:55Z" finished-at="2020-12-07T19:28:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="177050" started-at="2020-12-07T19:25:55Z" finished-at="2020-12-07T19:28:52Z">
+      <class name="utils.ExtentReportsResult">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:utils.ExtentReportsResult@55b0dcab]" name="LoginTest" duration-ms="1359" started-at="2020-12-07T19:28:50Z" finished-at="2020-12-07T19:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- utils.ExtentReportsResult -->
+      <class name="utils.ExcelDataProvider">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@7bedc48a]" name="test1" duration-ms="32612" started-at="2020-12-07T19:27:22Z" data-provider="test1data" finished-at="2020-12-07T19:27:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@7bedc48a]" name="test1" duration-ms="20567" started-at="2020-12-07T19:27:55Z" data-provider="test1data" finished-at="2020-12-07T19:28:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin134]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@7bedc48a]" name="test1" duration-ms="18694" started-at="2020-12-07T19:28:15Z" data-provider="test1data" finished-at="2020-12-07T19:28:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Addmin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@7bedc48a]" name="test1" duration-ms="16437" started-at="2020-12-07T19:28:34Z" data-provider="test1data" finished-at="2020-12-07T19:28:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adm456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- utils.ExcelDataProvider -->
+      <class name="utils.ESS">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:utils.ESS@6c40365c]" name="setUp" is-config="true" duration-ms="21611" started-at="2020-12-07T19:25:55Z" finished-at="2020-12-07T19:26:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpLoginTest()[pri:0, instance:utils.ExcelDataProvider@7bedc48a]" name="setUpLoginTest" is-config="true" duration-ms="10311" started-at="2020-12-07T19:26:16Z" finished-at="2020-12-07T19:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLoginTest -->
+        <test-method status="PASS" signature="verifyESS()[pri:0, instance:utils.ESS@6c40365c]" name="verifyESS" duration-ms="22904" started-at="2020-12-07T19:26:55Z" finished-at="2020-12-07T19:27:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyESS -->
+      </class> <!-- utils.ESS -->
+      <class name="utils.Screenshots">
+        <test-method status="PASS" signature="CaptureScreenshot()[pri:0, instance:utils.Screenshots@131ef10]" name="CaptureScreenshot" duration-ms="27659" started-at="2020-12-07T19:26:27Z" finished-at="2020-12-07T19:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaptureScreenshot -->
+      </class> <!-- utils.Screenshots -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
